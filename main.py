@@ -11,3 +11,7 @@ async def root():
 @app.get("/teste1")
 async def funcaoteste():
     return {"Teste": "Deu certo!"}
+
+@app.get("/teste2")
+async def funcaoteste1():
+    return {"Teste": "Deu certo de novo!"}
