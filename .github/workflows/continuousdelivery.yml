@@ -19,5 +19,6 @@ jobs:
         with:
           name: projetozipado.zip
           path: |
-            '**.py'
-            README.md
+            /PycharmProjects/teste-devops/'**.py'
+            /PycharmProjects/teste-devops/README.md
+            
