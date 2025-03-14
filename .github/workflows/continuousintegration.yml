@@ -1,4 +1,4 @@
-name: Continuos Integration
+name: Continuous Integration
 on:
   pull_request:
     branches:
@@ -10,9 +10,14 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
-        
+
       - name: Python Lint Code Scanning Action
         uses: advanced-security/python-lint-code-scanning-action@v1.1.2
         with:
           linter: pylint
 
+name: Continuous Integration
+on:
+  push:
+    branches:
+      - main
