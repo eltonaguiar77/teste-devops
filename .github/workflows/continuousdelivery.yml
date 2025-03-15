@@ -11,14 +11,10 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
 
-      - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v4.6.1
-
       - name: Simulando Continuous Delivery
         uses: actions/upload-artifact@v4
         with:
           name: projetozipado.zip
           path: |
-            teste-devops/main.py
-            teste-devops/README.md
-            
+            '**.py'
+            README.md
