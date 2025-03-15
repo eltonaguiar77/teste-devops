@@ -20,5 +20,4 @@ jobs:
           name: projetozipado.zip
           path: |
             main.py
-            .gitignore
             README.md
