@@ -19,5 +19,6 @@ jobs:
         with:
           name: projetozipado.zip
           path: |
-            main.py
-            README.md
+            teste-devops/main.py
+            teste-devops/README.md
+            
